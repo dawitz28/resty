@@ -3,7 +3,7 @@ import './footer.css';
 function Footer() {
   return (
     <footer>
-      &copy; 2021 John
+      &copy; 2021 Dawit
     </footer>
   )
 }
