@@ -128,7 +128,7 @@ class App extends React.Component {
     const response = await axios({
       method: options.method,
       url: options.url,
-      
+
 // this is the dada we can attach to the url above 
       // data: JSON.parse(options.body)
       data: options.data 
@@ -137,6 +137,7 @@ class App extends React.Component {
     const results = response.data.results;
     this.setState({results});
 
+    //here we'll adding/updating/not getting so we refetch. 
     
     // if(options.method === "get") {
     //   const results = response.data.results;
